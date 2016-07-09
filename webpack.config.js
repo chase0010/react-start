@@ -2,7 +2,8 @@ module.exports = {
   entry: './src/entry.js',
   output: {
     path: './bundle',
-    filename: 'bundle.js'       
+    filename: 'bundle.js',
+    publicPath: 'http://localhost:8080/build/'       
   },
   module: {
     loaders: [

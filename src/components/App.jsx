@@ -2,7 +2,15 @@
 import React from 'react';
 import { Link } from 'react-router';
 
+import io from 'socket.io-client'
+const socket = io();
+
 class App extends React.Component {
+
+  handleClick(){
+    socket.emit('hello','Chase');
+  }
+
   render() {
     return (
         <div>
@@ -12,6 +20,7 @@ class App extends React.Component {
             <li><Link to="/about">About</Link></li>
             <li><Link to="/lists">Lists</Link></li>
           </ul>
+          <button onClick={this.handleClick.bind(this)}>点击</button>
           <div className="detail">
             {this.props.children}
           </div>
