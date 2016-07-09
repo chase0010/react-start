@@ -1,16 +1,15 @@
-// src/component/root.jsx
 import React from 'react';
 
-class About extends React.Component {
+class Project extends React.Component {
   render() {
     return (
         <div>
           <h1>
-            About
+            Project
           </h1>
         </div>
       );
   }
 }
 
-export default About;
+export default Project;

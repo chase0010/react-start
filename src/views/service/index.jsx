@@ -1,16 +1,15 @@
-// src/component/root.jsx
 import React from 'react';
 
-class Home extends React.Component {
+class Service extends React.Component {
   render() {
     return (
         <div>
           <h1>
-            Home
+            Service
           </h1>
         </div>
       );
   }
 }
 
-export default Home;
+export default Service;

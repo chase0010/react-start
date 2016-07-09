@@ -3,7 +3,7 @@ import React from 'react';
 import ListItem from './ListItem.jsx';
 
 const lists = [
-      { _id: 1, text: 'This is list 1' },
+      { _id: 1, text: 'This is list 11' },
       { _id: 2, text: 'This is list 2' },
       { _id: 3, text: 'This is list 3' },
     ];
